@@ -5,20 +5,27 @@
  */
 package edu.eci.arsw.threads;
 
-public class CountThread implements Runnable{
+public class CountThread implements Runnable {
+    private int A;
+    private int B;
 
+
+    public CountThread(int A,int B) {
+        this.A = A;
+        this.B = B;
+
+    }
 
     @Override
     public void run() {
         System.out.println("thread is running..");
-        counter(5,30);
+        counter();
+
     }
 
-    public void counter(int A, int B){
-
-        for (int i = A; i < B; i++) {
+    public void counter(){
+        for (int i = A; i <= B; i++) {
             System.out.println(i);
-
         }
 
     }
