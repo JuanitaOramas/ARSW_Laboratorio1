@@ -5,10 +5,23 @@
  */
 package edu.eci.arsw.threads;
 
-/**
- *
- * @author hcadavid
- */
-public class CountThread {
-    
+public class CountThread implements Runnable{
+
+
+    @Override
+    public void run() {
+        System.out.println("thread is running..");
+        counter(5,30);
+    }
+
+    public void counter(int A, int B){
+
+        for (int i = A; i < B; i++) {
+            System.out.println(i);
+
+        }
+
+    }
+
+
 }
