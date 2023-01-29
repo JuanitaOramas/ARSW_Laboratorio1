@@ -4,6 +4,14 @@ public class ThreadPiDigits  extends Thread{
     private static int DigitsPerSum = 8;
     private static double Epsilon = 1e-17;
 
+    private int numberA;
+    private int numberB;
+
+    public ThreadPiDigits(int numberA, int numberB) {
+        this.numberA = numberA;
+        this.numberB = numberB;
+    }
+
 
     /**
      * Returns a range of hexadecimal digits of pi.
