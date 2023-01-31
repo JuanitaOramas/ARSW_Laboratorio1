@@ -16,7 +16,7 @@ public class Main {
     public static void main(String a[]) throws InterruptedException {
 //        System.out.println(bytesToHex(PiDigits.getDigits(0, 10,1)));
 //        System.out.println(bytesToHex(PiDigits.getDigits(1, 100,1)));
-        System.out.println(bytesToHex(new PiDigits().getDigits(1, 1000000,1)));
+        System.out.println(bytesToHex(new PiDigits().getDigits(1, 100000,500)));
 //        System.out.println(bytesToHex(PiDigits.getDigits(1, 1000000)));
     }
 
