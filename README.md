@@ -130,5 +130,7 @@ Se evidencia que en ese punto usar una mayor cantidad de hilos si mejora el rend
 
 
 3. De acuerdo con lo anterior, si para este problema en lugar de 500 hilos en una sola CPU se pudiera usar 1 hilo en cada una de 500 máquinas hipotéticas, la ley de Amdahls se aplicaría mejor?. Si en lugar de esto se usaran c hilos en 500/c máquinas distribuidas (siendo c es el número de núcleos de dichas máquinas), se mejoraría?. Explique su respuesta.
+
+
 Para el primer caso: No se aplicaría, y es un poco innecesario porque la ley de Amdahl nos asegura que en cuanto mayor sea la cantidad de hilos sobre una máquina mejora el tiempo de ejecución.
 Para el segundo caso: Si se mejoraría, dado que se estaría usando las ventajas de la programación paralela de forma óptima y se sustenta por la ley de Amdahl dado que a mayor cantidad de hilos aumenta el rendimiento.
