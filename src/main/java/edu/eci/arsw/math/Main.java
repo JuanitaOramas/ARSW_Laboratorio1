@@ -5,18 +5,20 @@
  */
 package edu.eci.arsw.math;
 
-import java.util.Arrays;
 
-/**
- *
- * @author hcadavid
- */
+
+
 public class Main {
 
     public static void main(String a[]) throws InterruptedException {
-//        System.out.println(bytesToHex(PiDigits.getDigits(0, 10,1)));
-//        System.out.println(bytesToHex(PiDigits.getDigits(1, 100,1)));
-        System.out.println(bytesToHex(new PiDigits().getDigits(1, 100000,500)));
+//      System.out.println(bytesToHex(PiDigits.getDigits(0, 10,1)));
+//      System.out.println(bytesToHex(PiDigits.getDigits(1, 100,1)));
+
+        long startTime = System.currentTimeMillis();
+        System.out.println(bytesToHex(new PiDigits().getDigits(1, 100000,200)));
+        long endTime = System.currentTimeMillis();
+        System.out.println("Tiempo de ejecucion: " + (endTime-startTime) );
+
 //        System.out.println(bytesToHex(PiDigits.getDigits(1, 1000000)));
     }
 
@@ -31,8 +33,8 @@ public class Main {
         }
         StringBuilder sb=new StringBuilder();
         for (int i=0;i<hexChars.length;i=i+2){
-            //sb.append(hexChars[i]);
-            sb.append(hexChars[i+1]);            
+
+            sb.append(hexChars[i+1]);
         }
         return sb.toString();
     }

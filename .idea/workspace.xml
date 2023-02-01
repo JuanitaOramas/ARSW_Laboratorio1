@@ -4,25 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b31b173f-a0c9-4b5f-a482-89c5bf61091d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/img_1.png" afterDir="false" />
+    <list default="true" id="a5757e40-a6f8-40cd-8f17-0a2dd467b369" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img_9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/threads/CountThreadsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/threads/CountThreadsMain.java" afterDir="false" />
     </list>
+    <list id="b213b45c-0ae8-4fb3-b0ef-2e5b3fd32cdc" name="Changes by wilsondel 🚀‍" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
