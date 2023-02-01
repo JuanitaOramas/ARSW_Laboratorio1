@@ -9,13 +9,16 @@ Entregar: Fuentes y documento PDF con las respuestas.
 
 ---
 **Lecturas Base:**
+
 * [Java Threads](http://beginnersbook.com/2013/03/java-threads/)
 * [Differences Java Threads and process](http://cs-fundamentals.com/tech-interview/java/differences-between-thread-and-process-in-java.php)
 
 **Descripción:**
 
 En este laboratorio veremos una introducción a la programación con hilos en Java. Entender su comportamiento, dependiendo de su cantidad y su momento en ejecución la forma en que usa los recursos del computador.  
+
 Se puede evidenciar que con la implementación de hilos en Java, permite que un programa sea más eficiente y encuentre en este caso la solución de forma más rápida. 
+
 ---
 **Parte I Hilos Java**
 
@@ -105,7 +108,7 @@ Se cambiaron las pruebas, en vez de usar 1'000.000 de dígitos de PI se utilizar
 
 ![img_6.png](/img/img_6.png)
 
--- -- ---------
+
 
 Con lo anterior, y con los tiempos de ejecución dados, haga una gráfica de tiempo de solución vs. número de hilos. Analice y plantee hipótesis con su compañero para las siguientes preguntas (puede tener en cuenta lo reportado por jVisualVM):
 
@@ -115,8 +118,10 @@ Con lo anterior, y con los tiempos de ejecución dados, haga una gráfica de tie
 
 	![](img/ahmdahls.png), donde _S(n)_ es el mejoramiento teórico del desempeño, _P_ la fracción paralelizable del algoritmo, y _n_ el número de hilos, a mayor _n_, mayor debería ser dicha mejora. Por qué el mejor desempeño no se logra con los 500 hilos?, cómo se compara este desempeño cuando se usan 200?. 
 
+
 Esto se debe a que hay un mayor uso del procesador debido a la gran cantidad de hilos que se están ejecutando en este proceso.
 Se evidencia en las imágenes que con 200 hilos el tiempo es 68000s y con 500 hilos es de 65936s lo que no representa un diferencia significativa teniendo en cuenta el procesamiento requerido para ello.   
+
 
 
 2. Cómo se comporta la solución usando tantos hilos de procesamiento como núcleos comparado con el resultado de usar el doble de éste?.
